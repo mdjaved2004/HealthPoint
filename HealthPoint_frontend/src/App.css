@@ -1,0 +1,36 @@
+/* Import all original CSS files */
+@import url('/assets/css/bootstrap.min.css');
+@import url('/assets/css/owl.carousel.min.css');
+@import url('/assets/css/slicknav.css');
+@import url('/assets/css/flaticon.css');
+@import url('/assets/css/gijgo.css');
+@import url('/assets/css/animate.min.css');
+@import url('/assets/css/animated-headline.css');
+@import url('/assets/css/magnific-popup.css');
+@import url('/assets/css/fontawesome-all.min.css');
+@import url('/assets/css/themify-icons.css');
+@import url('/assets/css/slick.css');
+@import url('/assets/css/nice-select.css');
+@import url('/assets/css/style.css');
+@import url('/assets/css/responsive.css');
+
+/* Add any custom styles here */
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+}
+
+.App {
+  width: 100%;
+  overflow-x: hidden;
+}

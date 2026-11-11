@@ -1,0 +1,153 @@
+/* Profile Edit Form Styles */
+
+.profile-edit-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-edit-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.profile-edit-card .form-title {
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.profile-edit-card .form-label {
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 8px;
+  display: block;
+  font-size: 14px;
+}
+
+.profile-edit-card .form-control {
+  padding: 12px 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.profile-edit-card .form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  background-color: #fff;
+}
+
+.profile-edit-card .text-danger {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.profile-edit-card .form-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.profile-edit-card .btn {
+  flex: 1;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.profile-edit-card .btn-primary {
+  background-color: #667eea;
+  color: white;
+}
+
+.profile-edit-card .btn-primary:hover:not(:disabled) {
+  background-color: #5568d3;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.profile-edit-card .btn-primary:disabled {
+  background-color: #aec0e0;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.profile-edit-card .alert {
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.profile-edit-card .alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.profile-edit-card .alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+@media (max-width: 768px) {
+  .profile-edit-container {
+    padding: 20px 15px;
+  }
+
+  .profile-edit-card {
+    padding: 30px 20px;
+  }
+
+  .profile-edit-card .form-title {
+    font-size: 24px;
+  }
+
+  .profile-edit-card .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .profile-edit-card .col-md-6 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-edit-card {
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .profile-edit-card .form-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .profile-edit-card .form-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .profile-edit-card .btn {
+    width: 100%;
+  }
+}
