@@ -123,14 +123,6 @@ Start the React application:
 npm run dev
 ```
 
-## 🎯 Expected Outcomes
-
-- Centralized and secure medical information management.
-- Improved communication between patients and doctors.
-- Better emergency preparedness through accessible medical records.
-- Secure sharing of patient information with authorized doctors.
-- Improved healthcare accessibility and user experience.
-
 ## 🚀 Future Scope
 
 - AI-based emergency suggestions.
